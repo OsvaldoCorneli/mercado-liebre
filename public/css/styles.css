@@ -27,6 +27,7 @@ li strong{
 }
 
 footer {
+    padding: 10px;
     text-align: center;
     background-color: #ebebeb;
 }
@@ -39,6 +40,7 @@ footer .fas{
 
 footer b {
     color: #666;
+    font-size: 14px;
 }
 
 .contenedor {
