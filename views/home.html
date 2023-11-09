@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,14 +21,14 @@
             <p><i class="fas fa-hand-holding-dollar"></i>
                 Comprar en cuotas y sin tarjeta de crédito</p>
         </div>
-        <ul>
+        <ul class="navcontenedor">
             <li><a href="">Ofertas</a></li>
             <li><a href="">Tiendas Oficiales</a></li>
             <li><a href="">Vender</a></li>
             <li><a href="">Ayuda</a></li>
         </ul> 
          
-            <ul>
+            <ul class="navcontenedor" >
                 <li><a href="">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
                 <li><a href="">Ingresá <i class="fas fa-right-to-bracket"></i></a></li>
                 <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
@@ -44,27 +45,49 @@
    
     <main> 
         <ul>
-            <li><b>Sección: Basado en tu última visita </b></li>
+            <li>
+                
+                <b>Sección: Basado en tu última visita </b></li>
+                
+                <div class="articulo">
                 <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera">
-                <p>$6.770</p>
-                 <p>40% OFF</p>
-                <p><strong>Cafetera Moulinex</strong></p>
- 
+                <div class="box-precio">
+                <i class="fas fa-truck" style="color: #41ae4a; padding-top: 10px; padding-bottom: 1px;"></i>
+                <p class="precios">$6.770</p>
+                 <p  class="descuentosdescription">40% OFF</p>
+                <p><strong class="descripcion">Cafetera Moulinex</strong></p>
+                </div>
+                 </div>
+
+                 <div class="articulo">
                 <img src="images/img-macbook-pro-2019.jpg" alt="macbook">
+                <div class="box-precio">
+                 <i class="fas fa-truck" style="color: #41ae4a; padding-top: 10px; padding-bottom: 1px;"></i>
                 <p class="precios">$230.000</p>
                 <p class="descuentosdescription" >20% off</p>
-                <p><strong>MacBook Pro 2019</strong></p>
-                  
+                <p><strong class="descripcion">MacBook Pro 2019</strong></p>
+                 </div>
+                 </div>
+
+                 <div class="articulo">
                 <img src="/images/img-samsung-galaxy-s10.jpg" alt="">
+                <div class="box-precio">
+                <i class="fas fa-truck" style="color: #41ae4a; padding-top: 10px; padding-bottom: 1px;" ></i>
                 <p class="precios">$70.500</p>
                 <p class="descuentosdescription">10% off</p>
-                <p><strong>Samsung Galaxy S10</strong></p>
+                <p><strong class="descripcion">Samsung Galaxy S10</strong></p>
+                 </div>
+                </div>
 
+                <div class="articulo"> 
                <img src="/images/img-tv-samsung-smart.jpg" alt="">
+               <div class="box-precio">  
+                <i class="fas fa-truck" style="color: #41ae4a; padding-top: 10px; padding-bottom: 1px;"></i>
                 <p class="precios">$23.200</p>
                 <p class="descuentosdescription">5% off</p>
-                <p><strong>SmartTv Samsung 43"</strong></p>
-                
+                <p><strong class="descripcion">SmartTv Samsung 43"</strong></p>
+                </div>
+                </div>
         </ul>
     </main>
     <footer>
