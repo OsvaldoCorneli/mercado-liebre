@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --ext html app.js"
+    "test": "nodemon --ext html app.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
