@@ -11,7 +11,6 @@ body{
     background-size: cover;
     background-color: #EAC926;
     padding: 20px;
-    position: fixed;
     top:0;
     z-index: 100;
 }
@@ -36,6 +35,9 @@ body{
     }
 }
 
+.searchbar {
+    position: relative
+}
 
 
 .copy-header{
@@ -106,9 +108,11 @@ body{
 }
 
 .product{
-    border: 10px solid black;
+    border: 1px solid black;
     padding: 0 15px;
     position: relative;
+    width: 20vw;
+    margin-bottom: 5px;
 }
 
 .product img{
@@ -139,6 +143,8 @@ body{
 
 
 }
+
+
 
 @media (min-width: 760px){
     .main-header-top-bar   {
@@ -174,10 +180,14 @@ body{
 
 @media (min-width: 1200px){
 
+
+
     .main-header-bottom-bar,.main-header-top-bar {
      
         max-width: 1200px;
-        margin: auto
+        margin: auto;
+    
+        
 
 
     }
