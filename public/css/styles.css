@@ -1,54 +1,73 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #EAC926;
     font-size: 12px;
-    
 }
-.navcontenedor{
+
+.navcontenedor {
     display: none;
 }
 
 header img {
-    width: 200px; 
-    height: auto; 
+    width: 200px;
+    height: auto;
 }
 
-main {
+.main {
     width: 90%;
     margin: auto;
 }
 
-.articulo{
-    box-shadow: 0px 0px 10px rgb(100,100,100);
+.productos-contenedor {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articulo {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     background-color: #ebebeb;
-     
+    padding: 15px;
+    position: relative;
+    margin-bottom: 20px;
+    width: 20%; /* Establece el ancho de cada tarjeta */
 }
 
-main img{
-    
-        width: 35%; 
-        height: auto; 
-      }
+.articulo img {
+    width: 100%;
+    height: auto;
+}
 
-.descripcion{
-    display: none;
+.articulo h2 {
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
-.box-precio{
+.articulo p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.descripcion {
+    display: none;
+    font-size: 18px; /* Ajuste de tamaño de fuente para la descripción */
+}
+
+.box-precio {
     border: solid 1px #ebebeb;
     padding: 15px;
-    
-    
 }
 
 .precios {
- font-size: 18px;
- margin-bottom: 3px;
+    font-size: 18px;
+    margin-bottom: 3px;
 }
 
 .descuentosdescription {
@@ -63,10 +82,10 @@ footer {
     background-color: #ebebeb;
 }
 
-footer .fas{
- font-size: 2em;    
- color: #03264C;
- margin-bottom: 10px;
+footer .fas {
+    font-size: 2em;
+    color: #03264C;
+    margin-bottom: 10px;
 }
 
 footer b {
@@ -79,34 +98,31 @@ footer b {
     justify-content: center;
 }
 
-.burger-menu{
- background-color: #1259c3;
- color: white;
- width: 30px;
- height: 30px;
- display: flex;
- align-items: center;
- justify-content: center;
- 
+.burger-menu {
+    background-color: #1259c3;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-@media (min-width: 361px){ /*tables*/
-    
-    
+@media (min-width: 361px) {
+    /*tables*/
 }
 
-
-@media (min-width: 769px){ /*desktop*/
-.descripcion{  
-  display: block;     
-  }
-    
-    .navcontenedor{
+@media (min-width: 769px) {
+    /*desktop*/
+    .descripcion {
         display: block;
-
     }
-    .burger-menu{
+
+    .navcontenedor {
+        display: block;
+    }
+
+    .burger-menu {
         display: none;
     }
 }
