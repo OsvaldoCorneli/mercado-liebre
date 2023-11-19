@@ -16,7 +16,7 @@ body{
 }
 
 .logo{
-    width: 200px;
+    width: 50%;
     animation: aumentar 1000ms linear 1 normal;
 }
 
@@ -30,7 +30,9 @@ body{
 }
 
 .searchbar {
-    position: relative
+    width: 50%;
+    position: relative;
+    left: 10%
 }
 
 
@@ -70,6 +72,11 @@ body{
   font-size: 17px;
 }
 
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 @media (min-width: 760px){
@@ -109,7 +116,9 @@ body{
 
 
     .main-header-bottom-bar,.main-header-top-bar {
-     
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: nowrap;
         max-width: 1200px;
         margin: auto;
     

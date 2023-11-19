@@ -1,5 +1,12 @@
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    
+}
+
+main{
+    background-color: rgb(238, 236, 236);
 }
 
 .contenedor-product{
@@ -13,7 +20,9 @@
 }
 
 .product{
-    border: 1px solid black;
+    background-color: white;
+    max-width: 350px;
+    border: 5px solid rgb(180, 180, 180);
     padding: 0 15px;
     position: relative;
     width: 75vw;
@@ -23,6 +32,7 @@
 
 .product img{
     width: 100%;
+    padding-bottom: 15px;
 }
 
 .product:hover h2{
@@ -50,18 +60,50 @@
 
 }
 
+.product-desc-box > .product-delivery-icon{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.product-desc-box {
+    position: relative;
+    }
+.box-precios p {
+ margin: 20px;
+
+}
+    
+
+.descuento{
+    position: absolute;
+    color: #39b54a ;
+    left: 22%;
+    bottom: 32%;
+    font-size: 85%;
+}    
 
 @media (min-width: 760px){
     .contenedor-product{
         width: 100%;
+        flex-direction: row;
         align-items: center;
-        justify-self: center;
+        justify-content: space-around;
         flex-wrap: wrap;
+
         
     }
 
     .product{
-        width: 75%;
+        width: 35%;
         
     
     }
@@ -74,17 +116,24 @@
 
 
     .contenedor-product{
-        width: 100%;
-        flex-direction: row;
+        width: 95%;
+        margin: auto;
         
     }
 
     .product{
-        width: 20%;
+        width: 15%;
+        min-width: 257px;
+        min-height: 373px;
+        justify-content: flex-start;
    
     
     }
    
+    .descuento{
+        left: 27%;
+        
+    }    
 
 
 }
