@@ -1,0 +1,16 @@
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+footer .fas{
+ font-size: 2em;    
+ color: #03264C;
+ margin-bottom: 10px;
+}
+
+footer b {
+    color: #666;
+    font-size: 14px;
+}
