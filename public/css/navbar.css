@@ -1,10 +1,11 @@
-* {
+ * {
     box-sizing: border-box;
 }
 
 body{
     font-family: 'roboto', sans-serif;
     margin: 0;
+    padding: 0
 }
 
 .main-header {
@@ -30,9 +31,11 @@ body{
 }
 
 .searchbar {
-    width: 50%;
     position: relative;
-    left: 10%
+}
+
+.searchbar input{
+    width: 25vw;
 }
 
 
@@ -78,7 +81,6 @@ body{
     justify-content: center;
 }
 
-
 @media (min-width: 760px){
     .main-header-top-bar   {
        
@@ -87,11 +89,12 @@ body{
    
         
     }
-    .copy-header {
+   .copy-header {
         max-width: 350px;
         text-align: right;
        }
-    .hamburguer-button {
+
+     .hamburguer-button { 
         display: none;
        }
        
@@ -99,7 +102,7 @@ body{
         display: flex;
         justify-content: space-between;
     }
-     
+
     .main-header-bottom-bar ul {
         display: flex;
     }
@@ -111,7 +114,7 @@ body{
 
 }
 
-@media (min-width: 1200px){
+ @media (min-width: 1200px){
 
 
 
@@ -154,4 +157,4 @@ body{
 
 
 }
-
+  
