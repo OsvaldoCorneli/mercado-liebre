@@ -107,6 +107,12 @@ main{
         
     
     }
+
+    .descuento{
+       
+        left: 30%;
+       
+    }    
     
 
 }
@@ -131,7 +137,7 @@ main{
     }
    
     .descuento{
-        left: 27%;
+        left: 32%;
         
     }    
 
